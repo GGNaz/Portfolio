@@ -7,11 +7,7 @@ const Projects = () => {
     <div class="bg-white">
       
     <div class="container xl:max-w-7xl mx-auto px-4 py-16 lg:px-8 lg:py-32">
-    <h3 class="flex items-center my-8">
-  <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
-  <span class="text-lg font-medium mx-3">Bike Destination</span>
-  <span aria-hidden="true" class="grow bg-gray-200 rounded h-0.5"></span>
-</h3>
+   
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <a href="javascript:void(0)" class="sm:col-span-2 md:col-span-1 block group relative transition ease-out active:opacity-75 overflow-hidden">
           <img src={moa} alt="Product Image" class="transform transition ease-out group-hover:scale-110"/>

@@ -5,7 +5,7 @@ import { Menu, Transition } from "@headlessui/react";
 
 export default function NavBar() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-
+ 
   return (
     <>
       {/* Page Container */}
@@ -110,6 +110,7 @@ export default function NavBar() {
         {/* Page Content */}
     
         {/* END Page Footer */}
+        
       </div>
       {/* END Page Container */}
     </>

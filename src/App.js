@@ -4,12 +4,23 @@ import { publicRoutes } from "./routes";
 import { getAllComponentsRoutes } from "./middleware/getComponentRoutes";
 import NavBar from "./Navigations/Navbar";
 import IntroPage from "./Pages/Intro/IntroPage";
+import AboutMe from "./Pages/AboutMe/AboutMe";
 function App() {
   return (
-    <div>
+    <div className="primary-content">
       <NavBar />
       <IntroPage />
-      <a href="https://www.facebook.com/RazenSe">
+     
+      <AboutMe/>
+      {/*    
+      <Routes>
+     
+        {publicRoutes.map((item, index) => {
+          return <>{getAllComponentsRoutes(item, index)}</>;
+        })}
+      
+      </Routes>  */}
+       <a href="https://www.facebook.com/RazenSe">
         <button
           onclick="buttonHandler()"
           title="Message me on Facebook"
@@ -31,14 +42,6 @@ function App() {
           </svg>
         </button>
       </a>
-      {/*    
-      <Routes>
-     
-        {publicRoutes.map((item, index) => {
-          return <>{getAllComponentsRoutes(item, index)}</>;
-        })}
-      
-      </Routes>  */}
     </div>
   );
 }

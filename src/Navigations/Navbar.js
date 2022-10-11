@@ -9,9 +9,9 @@ export default function NavBar() {
   return (
     <>
       {/* Page Container */}
-      <div id="page-container" className=" bg-gray-100">
+      <div id="page-container" className="bg-opacity-50">
         {/* Page Header */}
-        <header id="page-header" className="flex flex-none items-center bg-white shadow-sm z-1">
+        <header id="page-header" className="flex flex-none items-center z-1">
           <div className="container xl:max-w-7xl mx-auto px-4 lg:px-8">
             <div className="flex justify-between py-4">
               {/* Left Section */}

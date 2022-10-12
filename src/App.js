@@ -5,13 +5,17 @@ import { getAllComponentsRoutes } from "./middleware/getComponentRoutes";
 import NavBar from "./Navigations/Navbar";
 import IntroPage from "./Pages/Intro/IntroPage";
 import AboutMe from "./Pages/AboutMe/AboutMe";
+import Skills from "./Pages/Skills/Skills";
+import Footer from "./Pages/Footer/Footer";
 function App() {
   return (
-    <div className="primary-content">
-      <NavBar />
+    <div >
+      
       <IntroPage />
      
       <AboutMe/>
+      <Skills/>
+      <Footer/>
       {/*    
       <Routes>
      
@@ -20,11 +24,11 @@ function App() {
         })}
       
       </Routes>  */}
-       <a href="https://www.facebook.com/RazenSe">
+       <a href="mailto:nazersomera123@gmail.com">
         <button
           onclick="buttonHandler()"
-          title="Message me on Facebook"
-          class="fixed z-90 bottom-10 right-8 bg-blue-500 w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-500 hover:drop-shadow-2xl hover:animate-bounce duration-300"
+          title="Message me"
+          className="fixed z-90 bottom-10 right-8 bg-white w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-white hover:drop-shadow-2xl hover:animate-bounce duration-300 border-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +36,8 @@ function App() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            className="w-6 h-6 hover: text-gray-500"
+
           >
             <path
               stroke-linecap="round"

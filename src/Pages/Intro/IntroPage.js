@@ -4,6 +4,7 @@ import head from "../../assets/images/head.png";
 import ProgrammingPage from "../Programming/ProgrammingPage";
 import Projects from "../Projects/Projects";
 import { motion } from "framer-motion";
+import NavBar from "../../Navigations/Navbar";
 // import ArrowKeysReact from 'arrow-keys-react';
 // import "./styles.css";
 const IntroPage = () => {
@@ -68,17 +69,30 @@ const IntroPage = () => {
   //     </div>
   //   </div>
   // </div>
+  
+
+ 
   <div className="hero min-h-screen" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80")` }}>
-  <div className="hero-overlay bg-opacity-70"></div>
+
+      
+  <div className="hero-overlay bg-opacity-70">
+  <NavBar />
+  </div>
+  
   <div className="hero-content text-center text-neutral-content">
+ 
     <div className="max-w-md">
+  
       <h1 className="mb-5 text-5xl font-bold">Nazer Somera</h1>
       <p className="mb-5">Front End Developer / Web Developer</p>
       {/* <button className="btn btn-primary">Get Started</button> */}
+      <div className="text-gray-100 mt-30">Learn more about what I do</div>
     </div>
+   
   </div>
+ 
 </div>  
-           
+     
   );
 };
 

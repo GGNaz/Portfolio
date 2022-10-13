@@ -19,7 +19,7 @@ export default function NavBar() {
                 {/* Logo */}
                 <a href="#" className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-100 hover:text-blue-600 active:text-gray-700">
                   
-                  <span>Nazer.</span>
+                  <span>Portfolio.</span>
                 </a>
                 {/* END Logo */}
               </div>

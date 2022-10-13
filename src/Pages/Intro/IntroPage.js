@@ -86,11 +86,11 @@ const IntroPage = () => {
       <h1 className="mb-5 text-5xl font-bold">Nazer Somera</h1>
       <p className="mb-5">Front End Developer / Web Developer</p>
       {/* <button className="btn btn-primary">Get Started</button> */}
-      <div className="text-gray-100 mt-30">Learn more about what I do</div>
+     
     </div>
    
   </div>
- 
+  {/* <div className="text-white fixed bottom-2">Learn more about what I do</div> */}
 </div>  
      
   );

@@ -45,8 +45,8 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div>
-            <h1 className="text-5xl font-bold">About Me</h1>
+          <div className="mt-8">
+            <h1 className="text-5xl font-bold ">About Me</h1>
             <p className="py-6">
               Hi! I'm Nazer and i love creating things that live on the
               internet. My interest in web development started way back in 2018
@@ -73,6 +73,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      
     </motion.div>
   );
 };

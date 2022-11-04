@@ -31,7 +31,7 @@ const AboutMe = () => {
       <div className="hero min-h-screen bg-base-100">
         <div className="hero-content flex-col lg:flex-row">
           <div className="lg:w-1/2 lg:mr-16 lg:flex lg:justify-center lg:items-center">
-            <div className="lg:w-96 relative sm: w-30">
+            <div className="lg:w-96 relative ">
               <div className="absolute pattern-dots-xl text-blue-100 top-0 left-0 w-32 h-48 md:h-96 transform -translate-y-12 -translate-x-16 -rotate-3"></div>
               <div className="absolute pattern-dots-xl text-blue-100 bottom-0 right-0 w-32 h-48 md:h-96 transform translate-y-12 translate-x-16 rotate-3"></div>
               <div className="absolute rounded-full top-0 right-0 w-32 h-32 bg-yellow-200 bg-opacity-50 -mt-12 -mr-12"></div>
@@ -42,7 +42,7 @@ const AboutMe = () => {
 
                 src={nazerimg}
                 alt="nazerimg"
-                className="mask mask-squircle max-w-sm rounded-lg shadow-2xl"
+                className="h-30 w-30 mask mask-squircle max-w-sm rounded-lg shadow-2xl"
               />
             </div>
           </div>

@@ -28,7 +28,7 @@ const AboutMe = () => {
       variants={cardVariants}
       initial="offscreen"
     >
-      <div className="hero min-h-screen bg-base-100">
+      <div className="hero min-h-screen bg-base-100 overflow-x-hidden">
         <div className="hero-content flex-col lg:flex-row">
           {/* <div className="lg:w-1/2 lg:mr-16 lg:flex lg:justify-center lg:items-center"> */}
             <div className="lg:w-96 relative ">

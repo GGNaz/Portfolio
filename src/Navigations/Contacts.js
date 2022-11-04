@@ -4,7 +4,7 @@ import viberQr from "../assets/images/viberQR.JPG";
 const Contacts = () => {
   return (
     <div>
-      <a href="https://www.linkedin.com/in/nazer-somera-b7b598223/">
+      <a href="https://www.linkedin.com/in/nazer-somera-b7b598223/"  target="blank" rel="noopener noreferrer">
         <button
           onclick="buttonHandler()"
         
@@ -32,7 +32,7 @@ const Contacts = () => {
           </div>
         </button>
       </a>
-      <a href="https://www.facebook.com/RazenSe">
+      <a href="https://www.facebook.com/RazenSe" target="blank" rel="noopener noreferrer">
         <button
           onclick="buttonHandler()"
           className="fixed  left-8 bottom-28 bg-white h-10 w-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-white hover:drop-shadow-2xl hover:animate-bounce duration-300 border-2"

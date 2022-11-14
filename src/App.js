@@ -11,13 +11,11 @@ import Contacts from "./Navigations/Contacts";
 function App() {
   return (
     <div >
-      
       <IntroPage />
-     
-      <AboutMe/>
-      <Skills/>
-      <Footer/>
-      <Contacts/>
+      <AboutMe />
+      <Skills />
+      <Footer />
+      <Contacts />
       {/*    
       <Routes>
      
@@ -26,7 +24,7 @@ function App() {
         })}
       
       </Routes>  */}
-      
+
     </div>
   );
 }

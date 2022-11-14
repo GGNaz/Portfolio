@@ -18,7 +18,7 @@ const AboutMe = () => {
         duration: 0.8,
       },
     },
-  };
+  };  
   return (
     <motion.div
       // animate={{ x: 180 }}
@@ -29,7 +29,7 @@ const AboutMe = () => {
       initial="offscreen"
     >
        <div className="hero min-h-screen bg-base-100 overflow-x-hidden">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row md:flex-row">
           {/* <div className="lg:w-1/2 lg:mr-16 lg:flex lg:justify-center lg:items-center"> */}
             <div className="lg:w-96 relative items-center">
               {/* <div className="absolute pattern-dots-xl text-blue-100 top-0 left-0 w-32 h-48 md:h-96 transform -translate-y-12 -translate-x-16 -rotate-3"></div>
@@ -50,13 +50,13 @@ const AboutMe = () => {
 
           <div className="mt-8">
             <h1 className="text-5xl font-bold ">About Me</h1>
-            <p className="py-6">
+            <p className="flex py-6 justify-items-stretch">
             Hi! I'm Nazer and i love creating things that live on the
               internet. My interest in web development started way back in 2018
               when i was a college student. Im currently focusing Front End development and I already know how to use API's and how 
               to integrate from the backend services to user interface (UI).
             </p>
-           
+            <a href="https://drive.google.com/file/d/1LxotfbBHCz4ipoU3qmcCIDXIXpnyziRD/view?usp=sharing"  target="blank" rel="noopener noreferrer">
             <button className="btn btn-outline btn-blue-100 gap-2">
               View resume{" "}
               <svg
@@ -74,6 +74,7 @@ const AboutMe = () => {
                 />
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>
